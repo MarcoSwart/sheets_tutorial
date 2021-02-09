@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ClientProvider } from "./providers/client";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <ClientProvider>
     <App />
-  </React.StrictMode>,
+  </ClientProvider>,
   document.getElementById('root')
 );
 
