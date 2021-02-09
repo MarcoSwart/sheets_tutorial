@@ -71,7 +71,7 @@ function HomePageView() {
                     <AddDataToSheet style={{ marginTop: "15px" }} />
                 </div>
                 <div className="col-md-4">
-                    <h3>Output</h3>
+                    <h4>Output</h4>
                     <pre style={{ whiteSpace: "pre-wrap" }}>
                         {
                             data.map((item, i) => buildList(item, i))
